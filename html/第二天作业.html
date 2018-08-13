@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业</title>
+    <style>
+        div.rr{
+            width: 400px;
+            height: 70px;
+            display:inline-block;
+        }
+        .ww{
+            width: 200px;
+            height: 80px;
+            display:inline-block;
+            font-size: 20px;
+            vertical-align: center;
+            color: rgb(118,118,118);
+        }
+        .pp{
+            vertical-align: -28px;      /*让文字与图片在一行*/
+        }
+        a.qq{
+            text-decoration: none;
+            vertical-align: center;
+            width: 400px;
+            height: 80px;
+            display:inline-block;
+        }
+        p{
+            font-weight: bold;
+        }
+        .tt{
+            width: 400px;
+            height: 40px;
+        }
+        .tt:visited {
+
+        }
+        .yy{
+            width: 200px;
+            height: 40px;
+        }
+        .uu{
+            width: 180px;
+            height: 40px;
+            background-color: rgb(247,247,247);
+            border: 1px;        /*边框线值为 1 */
+        }
+        .uu:hover{
+            width: 180px;
+            height: 40px;
+            background-color: rgb(238,238,238);
+            border: 1px;
+        }
+        .uu:visited{
+            border: rgb(238,238,238);
+        }
+        .ii{
+            width: 400px;
+            height: 40px;
+            color:white;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: blue;
+            border-radius: 4px;     /*边框倒圆角*/
+            border: 1px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="rr">
+            <a class="qq" href="http://www.baidu.com">
+                <img class="pp" src="https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1535526407&di=b30c4e20cffe03e24f6a34acb7c295bb&src=http://img.zcool.cn/community/011a5357b64c620000018c1b9e7e67.png@1280w_1l_2o_100sh.png" width="160" height="80" alt="">
+                <span class="ww"> | 注册百度账号</span>
+            </a>
+    </div>
+
+<form action="">
+    <div class="ee"><p>用户名：<input class="tt" type="text" name="usename" placeholder="&emsp;请设置用户名"></p>
+    <p>手机号：<input  class="tt" type="text" name="phone" placeholder="&emsp;可用于登录和找回密码"></p>
+    <p>&emsp;密码：<input class="tt" type="password" name="password" placeholder="&emsp;请设置登录密码"></p>
+    <p>验证码：<input  class="yy" type="text" name="yzm" placeholder="&emsp;请输入验证码">&emsp;<input class="uu" type="button" name="yzm" value="&emsp;获取短信验证码"></p>
+    &emsp;&emsp;&emsp;<input type="checkbox" name="read">阅读并接受<a href="https://passport.baidu.com/static/passpc-account/html/protocal.html">《百度用户协议》</a>及<a href="https://www.baidu.com/duty/yinsiquan.html">《百度隐私权保护声明》</a><br>
+        <p></p>
+    &emsp;&emsp;&emsp;<input  class="ii" type="submit" value="注册"></div>
+</form>
+</body>
+</html>
